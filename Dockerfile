@@ -4,7 +4,7 @@ WORKDIR /utils
 COPY . .
 RUN chmod -R 777 .
 
-WORKDIR /manu
+WORKDIR /workspace
 
 RUN apt update
 RUN apt install vim screen ffmpeg libsm6 libxext6 -y
